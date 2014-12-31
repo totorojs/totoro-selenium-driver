@@ -1,0 +1,51 @@
+{
+  "name": "totoro-selenium-driver",
+  "version": "1.0.0",
+  "description": "totoro selenium driver",
+  "main": "index.js",
+  "bin": {
+    "totoro-selenium-driver": "./bin/totoro-selenium-driver.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config": {
+    "cov": {
+      "threshold": 100
+    }
+  },
+  "dependencies": {
+    "commander": "~2.5.0",
+    "debug": "~2.1.0",
+    "totoro-driver-base": "^1.0.0",
+    "selenium-webdriver": "^2.44.0",
+    "async": "~0.9.0"
+  },
+  "devDependencies": {
+    "autod": "*",
+    "contributors": "*",
+    "cov": "*",
+    "istanbul-harmony": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "should": "~4.1.0"
+  },
+  "homepage": "https://github.com/totorojs/totoro-selenium-driver",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/totorojs/totoro-selenium-driver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/totorojs/totoro-selenium-driver/issues",
+    "email": "kangpangpang@gmail.com"
+  },
+  "keywords": [
+    "totoro", "selenium", "totoro-driver"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "leoner <kangpangpang@gmail.com>",
+  "license": "MIT"
+}
